@@ -1,0 +1,25 @@
+[package]
+name = "p2p-file-transfer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.libp2p]
+version = "0.41.0"
+
+[dependencies.tokio]
+version = "1.15.0"
+features = ["full"]
+
+[dependencies.structopt]
+version = "0.3.25"
+
+[dependencies.log]
+version = "0.4.14"
+
+[dependencies.env_logger]
+version = "0.9.0"
+
+[dependencies.futures]
+version = "0.3.19"
